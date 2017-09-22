@@ -3,9 +3,7 @@ import requests, bs4, os, youtube_dl
 
 # Returns List of Tracks Joined By "+"
 def tracks(url):
-    headers = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',}
     res = requests.get(url)
-    res.raise_for_status()
     soup = bs4.BeautifulSoup(res.text.encode('utf-8').decode('ascii', 'ignore'), 'html.parser')
 
     searchTracks = soup.select('.update_song_info a')

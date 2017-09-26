@@ -77,5 +77,9 @@ def youtubeDL(url):
     with youtube_dl.YoutubeDL(options) as ydl:
         ydl.download([url])
 
-for d in urlList:
-    youtubeDL(d)
+def main():
+    for d in urlList:
+        youtubeDL(d)
+
+if __name__ == '__main__':
+    main()

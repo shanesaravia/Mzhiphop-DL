@@ -70,7 +70,7 @@ def youtubeDL(url):
             'preferredcodec': 'mp3',
             'preferredquality': '192',
             }],
-        'outtmpl': 'C:/Users/Shane Saravia/Music/TrackName/%(title)s.%(ext)s',     # name the file
+        'outtmpl': '/Music/mzhiphop/%(title)s.%(ext)s',     # name the file
         'noplaylist' : True,        # only download single song, not playlist
     }
     

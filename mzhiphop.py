@@ -1,11 +1,9 @@
 import requests, bs4, os, youtube_dl
 
-
 # Returns List of Tracks Joined By "+"
 def tracks(url):
     res = requests.get(url)
     soup = bs4.BeautifulSoup(res.text.encode('utf-8').decode('ascii', 'ignore'), 'html.parser')
-
     searchTracks = soup.select('.update_song_info a')
     prettyTracks = soup.select('.update_song_info a')
     for n, i in enumerate(searchTracks):
@@ -15,7 +13,6 @@ def tracks(url):
     return(searchTracks, prettyTracks)
     
 searchList, prettyList = tracks('http://www.mzhiphop.com')
-
 
 # Returns Selection of Songs
 def userSelection(searchList, prettyList):

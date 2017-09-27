@@ -11,7 +11,7 @@ Ensure all the dependencies are met when following the quick guide to have this 
 4. All the files will then download to a new folder within your music directory called "mzhiphop".
 
 ## Dependencies
-[Python 3](https://www.python.org/)    
-[Requests 2.18.4](http://docs.python-requests.org/en/master/)
-[Beautiful Soup 4.6.0](https://pypi.python.org/pypi/beautifulsoup4)
+[Python 3](https://www.python.org/)  
+[Requests 2.18.4](http://docs.python-requests.org/en/master/)  
+[Beautiful Soup 4.6.0](https://pypi.python.org/pypi/beautifulsoup4)  
 [Youtube-DL 2017.9.15](https://github.com/rg3/youtube-dl/blob/master/README.md)

@@ -15,3 +15,9 @@ Ensure all the dependencies are met when following the quick guide to have this 
 [Requests 2.18.4](http://docs.python-requests.org/en/master/)  
 [Beautiful Soup 4.6.0](https://pypi.python.org/pypi/beautifulsoup4)  
 [Youtube-DL 2017.9.15](https://github.com/rg3/youtube-dl/blob/master/README.md)
+
+## Author
+**Shane Saravia**
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/shanesaravia/Rogers-Data-Notifier/blob/master/LICENSE) file for details
